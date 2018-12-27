@@ -35,3 +35,29 @@ body{
     color: #EA1C2C;
     font-size: 1.5rem;
 }
+
+#headingGroup span{
+    color: #EA1C2C;
+}
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.content{
+    margin: 5px;
+}
+
+.navbar.scrolled{
+    background-color: rgb(222,192,222);
+    transition: 500ms;
+}
+
+@media (max-width: 1200px){
+    #headingGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+}
